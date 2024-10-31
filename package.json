@@ -1,0 +1,18 @@
+{
+    "name": "metashopify-exports",
+    "version": "1.0.0",
+    "description": "Shopify metadata migration tool",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@shopify/shopify-api": "^7.0.0",
+      "dotenv": "^16.0.0",
+      "winston": "^3.8.0"
+    }
+  }
